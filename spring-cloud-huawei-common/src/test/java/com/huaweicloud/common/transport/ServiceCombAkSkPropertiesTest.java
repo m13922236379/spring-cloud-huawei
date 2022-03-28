@@ -42,7 +42,7 @@ public class ServiceCombAkSkPropertiesTest {
   @Test
   public void testConfigurationCorrect() {
     Assert.assertNotNull(akSkProperties);
-    Assert.assertEquals(true, akSkProperties.isEnabled());
+    Assert.assertTrue(akSkProperties.isEnabled());
     Assert.assertEquals("your ak", akSkProperties.getAccessKey());
     Assert.assertEquals("1dabecbf115955223ea3b7348366c162678688b0fc70e282c0a33e6e4baeccb9",
         akSkProperties.getSecretKey());
