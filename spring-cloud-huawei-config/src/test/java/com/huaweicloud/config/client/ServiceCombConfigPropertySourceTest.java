@@ -30,8 +30,6 @@ import mockit.MockUp;
 
 public class ServiceCombConfigPropertySourceTest extends MockUp<ServiceCombConfigPropertySource> {
 
-  private Map<String, Object> properties = new HashMap<>();
-
   @Test
   public void getPropertyNames() {
     Map<String, Object> sources = new HashMap<>();
